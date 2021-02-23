@@ -1,9 +1,9 @@
 <WinchVariants>
 	<Winch
 		Name="w_scout_default"
-		Length="14"
-		StrengthMult="1.0"
-		IsEngineIgnitionRequired="true"
+		Length="50"
+		StrengthMult="5"
+		IsEngineIgnitionRequired="false"
 	>
 		<GameData
 			Price="1000"
@@ -22,14 +22,14 @@
 	</Winch>
 	<Winch
 		Name="w_scout_ext"
-		Length="21"
-		StrengthMult="1.0"
-		IsEngineIgnitionRequired="true"
+		Length="70"
+		StrengthMult="5"
+		IsEngineIgnitionRequired="false"
 	>
 		<GameData
 			Price="7500"
 			UnlockByExploration="false"
-			UnlockByRank="6"
+			UnlockByRank="1"
 		>
 			<WinchParams
 			/>
@@ -43,14 +43,14 @@
 	</Winch>
 	<Winch
 		Name="w_scout_pow"
-		Length="14"
-		StrengthMult="1.4"
-		IsEngineIgnitionRequired="true"
+		Length="50"
+		StrengthMult="10"
+		IsEngineIgnitionRequired="false"
 	>
 		<GameData
 			Price="9400"
 			UnlockByExploration="false"
-			UnlockByRank="10"
+			UnlockByRank="1"
 		>
 			<WinchParams
 			/>
@@ -64,14 +64,14 @@
 	</Winch>
 		<Winch
 		Name="w_scout_ext_pow"
-		Length="21"
-		StrengthMult="1.4"
-		IsEngineIgnitionRequired="true"
+		Length="50"
+		StrengthMult="10"
+		IsEngineIgnitionRequired="false"
 	>
 		<GameData
 			Price="12200"
 			UnlockByExploration="false"
-			UnlockByRank="14"
+			UnlockByRank="1"
 		>
 			<WinchParams
 			/>
@@ -85,8 +85,8 @@
 	</Winch>
 	<Winch
 		Name="w_scout_offline"
-		Length="14"
-		StrengthMult="0.9"
+		Length="70"
+		StrengthMult="4"
 		IsEngineIgnitionRequired="false"
 	>
 		<GameData
