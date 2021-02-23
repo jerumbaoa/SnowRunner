@@ -35,7 +35,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="240"
-		Responsiveness="0.1"
+		Responsiveness="1.0"
 		SteerSpeed="0.033"
 		TruckImage="fleetstarF2070A1mchr"
 		TruckType="HEAVY_DUTY"

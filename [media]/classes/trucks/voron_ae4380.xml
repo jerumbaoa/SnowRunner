@@ -46,7 +46,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="250"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.022"
 		TruckImage="voronAE4380mchr"
 		TruckType="OFFROAD"

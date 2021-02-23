@@ -35,7 +35,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="200"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.025"
 		TruckImage="freightlinerM916A1mchr"
 		TruckType="OFFROAD"

@@ -50,7 +50,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="350"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.018"
 		TruckImage="DANmchr"
 		TruckType="HEAVY"

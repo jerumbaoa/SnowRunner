@@ -36,7 +36,7 @@
 		EngineStartDelay="1.7"
 		ExhaustStartTime="1.6"
 		FuelCapacity="42"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="don71mchr"
 		TruckType="SCOUT"

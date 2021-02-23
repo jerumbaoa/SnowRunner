@@ -35,7 +35,7 @@
 		EngineStartDelay="1.7"
 		ExhaustStartTime="1.6"
 		FuelCapacity="60"
-		Responsiveness="0.5"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="tuz166mchr"
 		TruckType="SCOUT"

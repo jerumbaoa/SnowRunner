@@ -45,7 +45,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="240"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="gmc9500mchr"
 		TruckType="HIGHWAY"

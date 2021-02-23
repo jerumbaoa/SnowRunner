@@ -62,7 +62,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="300"
-		Responsiveness="0.25"
+		Responsiveness="1.0"
 		SteerSpeed="0.025"
 		TruckImage="freightliner114SDmchr"
 		TruckType="OFFROAD"

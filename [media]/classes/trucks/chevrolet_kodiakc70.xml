@@ -60,7 +60,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="200"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="chevkodiak70blazer"
 		TruckType="HEAVY_DUTY"

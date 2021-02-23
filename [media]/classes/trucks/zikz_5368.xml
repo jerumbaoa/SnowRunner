@@ -64,7 +64,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="190"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.025"
 		TruckImage="ZIKZ5368mchr"
 		TruckType="OFFROAD"

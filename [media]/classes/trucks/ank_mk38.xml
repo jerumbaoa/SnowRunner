@@ -40,7 +40,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="200"
-		Responsiveness="0.3"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="ANKMK38mchr"
 		TruckType="OFFROAD"

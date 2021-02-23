@@ -29,7 +29,7 @@
 		EngineStartDelay="0.6"
 		ExhaustStartTime="0.6"
 		FuelCapacity="340"
-		Responsiveness="0.05"
+		Responsiveness="1.0"
 		SteerSpeed="0.017"
 		TruckImage="cat745Cv2mchr"
 		TruckType="HEAVY"

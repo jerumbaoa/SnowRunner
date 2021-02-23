@@ -41,7 +41,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="240"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.022"
 		TruckImage="InternationalPaystar5070mchr"
 		TruckType="OFFROAD"

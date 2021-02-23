@@ -107,7 +107,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="360"
-		Responsiveness="0.15"
+		Responsiveness="1.0"
 		SteerSpeed="0.024"
 		TruckImage="ws6900tweeensteermchr"
 		TruckType="HEAVY"

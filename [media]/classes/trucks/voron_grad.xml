@@ -96,7 +96,7 @@
 		EngineStartDelay="0.8"
 		ExhaustStartTime="0.9"
 		FuelCapacity="330"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.02"
 		TruckImage="vorongradmchr"
 		TruckType="OFFROAD"

@@ -40,7 +40,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="300"
-		Responsiveness="0.2"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		TruckImage="TUZ420Tatarinmchr"
 		TruckType="SCOUT"

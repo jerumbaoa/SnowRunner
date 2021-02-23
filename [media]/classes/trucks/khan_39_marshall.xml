@@ -67,7 +67,7 @@
 		ExhaustStartTime="1.6"
 		FuelCapacity="40"
 		FueltankMarkerOffset="(1; 0.4; 0)"
-		Responsiveness="0.6"
+		Responsiveness="1.0"
 		SteerSpeed="0.03"
 		SuspensionMarkerOffset="(1; -0.3; 0)"
 		TruckImage="khanMarshallmchr"

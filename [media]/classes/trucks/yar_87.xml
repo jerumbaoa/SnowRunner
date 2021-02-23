@@ -56,7 +56,7 @@
 		EngineStartDelay="2"
 		ExhaustStartTime="1.8"
 		FuelCapacity="110"
-		Responsiveness="0.55"
+		Responsiveness="1.0"
 		SteerSpeed="0.05"
 		TruckImage="YARmchr"
 		TruckType="SCOUT"
