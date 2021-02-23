@@ -1,0 +1,10 @@
+<_parent File="cargo_logs_frame_addon_log_short" />
+<TruckAddon>
+	<PhysicsModel Mesh="trucks/cargo/cargo_logs_cat_745c_log_bunk" />
+	<GameData>
+		<SpawnLoadOrigin Position="(0; 0; 0)" />
+		<RequiredAddon _noinherit="true" Types="cat_745c_log_bunk" />
+		<InstallSlot CargoLength="1" CargoType="CargoLogsShort" CargoAddonSubtype="Cat745LogBunk" ManualLoads="3" />        
+		<!--<InstallSlot CargoLength="1" CargoType="CargoLogsShort" ManualLoads="3" />-->
+    </GameData>
+</TruckAddon>

@@ -1,0 +1,12 @@
+<_parent File="frame_addon_flatbed_2" />
+<TruckAddon>
+	<PhysicsModel Mesh="trucks/addons/dan_96320_frame_addon_flatbed_2" />
+	<GameData
+		Price="4900"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<InstallSocket Type="FrameAddonFlatbedDan96320" Offset="(0;0;0)" />
+		<AddonSlots InitialOffset="(0.98; 0.276; 0)" OffsetStep="(-2.478; 0; 0)" Quantity="2" />
+	</GameData>
+</TruckAddon>

@@ -1,0 +1,69 @@
+<TruckAddon>
+	<PhysicsModel Mesh="trucks\cargo\cargo_logs_long_trailer_log_pole">
+		<Body
+			Collisions="All"
+			CenterOfMassOffset="(1; 0; 0)"
+			Friction="0.1"
+			ImpactType="Foliage"
+			Mass="3000"
+			ModelFrame="BoneRoot_cdt"
+		>
+			<Constraint
+				PlaneAxisLocal="(0; 0; 1.0)"
+				TwistAxisLocal="(1.0; 0; 0)"
+				Type="Ragdoll"
+				PivotOffset="(0;0;0)"
+			/>
+			<Body
+				Collisions="All"
+				Friction="0.1"
+				ImpactType="Foliage"
+				Mass="3000"
+				CenterOfMassOffset="(0; 0; 0)"
+				ModelFrame="BoneTop_cdt"
+			>
+				<Constraint
+					LinearLimitsX="(-0.4; 0.4)"
+					LinearLimitsY="(0; 0.5)"
+					LinearLimitsZ="(-0.5; 0.5)"
+					Type="Fixed"
+				>
+					<Motor Damping="40000" Spring="8000" Type="Spring" />
+				</Constraint>
+			</Body>
+			<Body
+				Collisions="All"
+				Friction="0.1"
+				ImpactType="Foliage"
+				Mass="6000"
+				CenterOfMassOffset="(0; 0; 0)"
+				ModelFrame="BoneBottom_cdt"
+			>
+				<Constraint
+					Cone="10"
+					TwistMin="-10"
+					TwistMax="10"
+					PlaneMin="-2"
+					Type="Ragdoll"
+					TwistAxisLocal="(1;0;0)"
+					PlaneAxisLocal="(0;1;0)"
+				>
+					<TwistMotor Damping="60000" Spring="200000" Type="Spring" />
+					<PlaneConeMotor Damping="80000" Spring="4000000" Type="Spring" />
+				</Constraint>
+			</Body>
+		</Body>
+	</PhysicsModel>
+	<LoadCheckPoint Pos="(-6.7; 1.251; 0)" ParentFrame="BoneBottom_cdt" />
+	<GameData UnpackOnTrailerDetach="True" LoadPoints="6" ManualLoads="2">
+		<SpawnLoadOrigin Position="(-4.502; 1.548; 0)" />
+		<RequiredAddon Types="trailer_log_pole" />
+		<RequiredAddon Types="bunk_log_addon" />
+        <Sounds
+			InstallSound="cargo_manual/cargo_manual_logs_long"
+			TransportedSound=""
+			ManualSound="cargo_manual/cargo_manual_logs_long"
+		/>
+		<InstallSlot CargoLength="1" CargoType="CargoLogsLong" ManualLoads="3" />        
+	</GameData>
+</TruckAddon>
